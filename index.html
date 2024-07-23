@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="myH1">Stopwatch</h1>
+
+    <div class="container">
+      <div class="display">00:00:00</div>
+      <div class="controls">
+        <button id="startBtn" onclick="start()">Start</button>
+        <button id="stopBtn" onclick="stop()">Stop</button>
+        <button id="resetBtn" onclick="reset()">Reset</button>
+        <button id="lapBtn" onclick="lap()">Lap</button>
+      </div>
+
+      <ul class="laps"></ul>
+
+      <div>
+        <p>@EACAMP2024</p>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
